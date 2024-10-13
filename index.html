@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4 - Fetch Data</title>
+</head>
+<body>
+    <h1>Lab 4 - Fetch and Display Data</h1>
+
+    <!-- Buttons for triggering each implementation -->
+    <button onclick="fetchSync()">Synchronous XMLHttpRequest</button>
+    <button onclick="fetchAsync()">Asynchronous XMLHttpRequest</button>
+    <button onclick="fetchWithPromises()">Fetch with Promises</button>
+
+    <!-- Table to display the fetched data -->
+    <table border="1" id="studentTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>ID</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
